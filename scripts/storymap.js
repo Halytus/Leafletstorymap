@@ -10,7 +10,7 @@ $(window).on('load', function() {
     $.get('csv/Chapters.csv', function(chapters) {
       initMap(
         $.csv.toObjects(options),
-        $.csv.toObjects(chapters)
+        $.csv.toObjects(Truck Tracker)
       )
     }).fail(function(e) { alert('Found Options.csv, but could not read Chapters.csv') });
 
